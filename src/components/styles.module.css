@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 8px 2.98px 7.456px rgba(0, 0, 0, .1);
+}
+
+.navlogo {
+    max-width: 100px;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero {
+    display:flex;
+    flex-direction: column;
+}
+
+.herophoto {
+    max-height: 50%;
+    max-width: 50%;
+    align-self: center;
+}
+
+.heroheader {
+    margin-bottom: 16px;
+}
+
+.heroparagraph {
+    margin-top: 0;
+}
